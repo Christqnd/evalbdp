@@ -2,7 +2,7 @@
 EvalBDP
 
 http://localhost:8080/categorias
-Get, Post, Put ,
+Get, Post, Put.
 
 Categorias
 {
@@ -15,7 +15,7 @@ delete
 
 
 http://localhost:8080/bienes
-Get, Post, Put 
+Get, Post, Put.
 Bienes
 {
     "nombre" : "Mesa",
