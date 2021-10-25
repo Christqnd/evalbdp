@@ -25,22 +25,19 @@ public class BDPstockController {
 	public String Bienes() {
 
 		Categoria categoria1=new Categoria("Desarrollo");
-		repoct.save(categoria1);
-		
 		Categoria categoria2=new Categoria("Ejecutivo");
-		repoct.save(categoria2);
-		
 		Categoria categoria3=new Categoria("Gerencia");
-		repoct.save(categoria3);
-
 		
-		Bien bien=new Bien("Mesa","Mesa de caja de seguridad");
+		Bien bien=new Bien("Mesa","Mesa de madera con seguro de reconocimiento de huella dactilar");
+		bien.addCategoria(categoria1);
 		repobn.save(bien);
 		
 		Bien bien2=new Bien("Silla","Silla giratoria");
+		bien2.addCategoria(categoria1);
 		repobn.save(bien2);
 		
 		Bien bien3=new Bien("Teclado","Teclado mecanito inalambrico");
+		bien3.addCategoria(categoria1);
 		repobn.save(bien3);
 
 
